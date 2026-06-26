@@ -3,7 +3,7 @@ import candidate from "../data/candidate";
 import { Job } from "../types";  
   
 interface JobDetailProps {  
-  jobId: string;  
+  jobId: string | null;  
   onBack: () => void;  
 }  
   
