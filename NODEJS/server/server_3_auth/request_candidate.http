@@ -1,5 +1,5 @@
 
-POST http://localhost:3000/signup
+POST http://localhost:3000/api/auth/signup
 Content-Type: application/json
 
 {  
@@ -10,7 +10,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3000/login
+POST http://localhost:3000/api/auth/login
 Content-Type: application/json
 
 {  
@@ -19,3 +19,34 @@ Content-Type: application/json
 }
 
 ###
+
+
+POST http://localhost:3000/api/auth/signup
+Content-Type: application/json
+
+{  
+    "name": "mahesh",  
+    "email": "mahesh@gmail.com",  
+    "password": "mahesh@123",
+    "role": "admin"
+}
+
+### 
+
+GET http://localhost:3000/api/candidate/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhM2QwYjQ1ZmMyM2RlOGE5YzUyMDk3ZSIsIm5hbWUiOiJyYW1lc2giLCJyb2xlIjoiY2FuZGlkYXRlIiwiaWF0IjoxNzgyMzg1NjE0LCJleHAiOjE3ODI5OTA0MTR9.psZHRuhrJQ8XRn2GYz06LjCQFlOT3KhCHurMuUOeGgg
+
+
+###
+
+POST http://localhost:3000/api/candidate/apply
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhM2QwYjQ1ZmMyM2RlOGE5YzUyMDk3ZSIsIm5hbWUiOiJyYW1lc2giLCJyb2xlIjoiY2FuZGlkYXRlIiwiaWF0IjoxNzgyMzg1NjE0LCJleHAiOjE3ODI5OTA0MTR9.psZHRuhrJQ8XRn2GYz06LjCQFlOT3KhCHurMuUOeGgg
+# Data Analyst
+
+{
+    "jobId": "6a3ba573690a53ab423d44b8"
+}
+###
+

@@ -3,7 +3,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhM2JiOThhM
 
 ###
 
-GET http://localhost:3000/api/jobs/2
+GET http://localhost:3000/api/jobs/6a3ba573690a53ab423d44b6
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhM2JiOThhMWI2OWU4ZWFjMDRhNjBjZSIsIm5hbWUiOiJyYW1lc2giLCJyb2xlIjoiY2FuZGlkYXRlIiwiaWF0IjoxNzgyMjk5NzU1LCJleHAiOjE3ODI5MDQ1NTV9.NpjaR0EqZstnCSyg7Sq9YaXJCD-c6F2LzM3mb41tO5s
 
 ###
 
@@ -49,6 +50,7 @@ Content-Type: application/json
 ###
 
 POST http://localhost:3000/api/jobs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhM2JiOThhMWI2OWU4ZWFjMDRhNjBjZSIsIm5hbWUiOiJyYW1lc2giLCJyb2xlIjoiY2FuZGlkYXRlIiwiaWF0IjoxNzgyMjk5NzU1LCJleHAiOjE3ODI5MDQ1NTV9.NpjaR0EqZstnCSyg7Sq9YaXJCD-c6F2LzM3mb41tO5s
 Content-Type: application/json
 
 {  

@@ -126,37 +126,3 @@ code {
 
     <p className="error-text">{error}</p>}
     <button className="link-button" */
-
-.auth-form, .post-job{
-  background: white;
-  max-width: 400px;
-  margin: 48px auto;
-  padding: 24px;
-  border-radius: 8px;
-}
-.auth-form h2{
-  color: black;
-}
-
-.auth-form input, .auth-form select, 
-.post-job input, .post-job textarea{
-  display: block;
-  width: 100%;
-  margin-bottom: 8px;
-  padding: 8px;
-} 
-
-.error-text{
-  color: rgb(199, 115, 115);
-  font-weight: bold;
-  font-size: 18px;
-  padding: 4px;
-}
-
-.link-button{
-  background: none;
-  border: none;
-  color: black;
-  text-decoration: underline;
-  cursor: pointer;
-}

@@ -10,4 +10,9 @@ Content-Type: application/json
 }
 
 
+###
 
+GET http://localhost:3000/api/jobs
+abc: xyz
+
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhM2JiOThhMWI2OWU4ZWFjMDRhNjBjZSIsIm5hbWUiOiJyYW1lc2giLCJyb2xlIjoiY2FuZGlkYXRlIiwiaWF0IjoxNzgyMjk5NzU1LCJleHAiOjE3ODI5MDQ1NTV9.NpjaR0EqZstnCSyg7Sq9YaXJCD-c6F2LzM3mb41tO5s

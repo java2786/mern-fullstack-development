@@ -1,0 +1,17 @@
+
+POST http://localhost:3000/api/jobs
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhM2JiOThhMWI2OWU4ZWFjMDRhNjBjZSIsIm5hbWUiOiJyYW1lc2giLCJyb2xlIjoiY2FuZGlkYXRlIiwiaWF0IjoxNzgyMjk5NzU1LCJleHAiOjE3ODI5MDQ1NTV9.NpjaR0EqZstnCSyg7Sq9YaXJCD-c6F2LzM3mb41tO5s
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhM2QwMDhmMmU3MWRlZDYzZjg1ZTM5ZSIsIm5hbWUiOiJtYWhlc2giLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3ODIzODI3NDEsImV4cCI6MTc4Mjk4NzU0MX0.O3S5theecHvcbIDn3-RfPYNUa3mrbWHJpL1ofb2dqXo
+Content-Type: application/json
+
+{  
+"title": "Database Admin",  
+"company": "AWS",  
+"location": "New York",  
+"remote": true,  
+"skillsRequired": ["Mysql", "Postgresql", "Sql"],  
+"experienceRequired": 1,  
+"description": "this is a fun job for just a demonstration purpose."  
+}
+
+###

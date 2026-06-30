@@ -4,15 +4,22 @@ import { Job } from "../types";
   
 interface JobListProps {  
   onSelectJob: (jobId: string) => void;  
+  token:string;
 }  
   
-function JobList({ onSelectJob }: JobListProps) {  
+function JobList({ token, onSelectJob }: JobListProps) {  
   const [jobs, setJobs] = useState<Job[]>([]);  
   const [loading, setLoading] = useState<boolean>(true);  
   const [error, setError] = useState<string | null>(null);  
   
   useEffect(() => {  
-    fetch("http://localhost:3000/api/jobs")  
+    fetch("http://localhost:3000/api/jobs", {
+      // method: 'get',
+      headers: {
+          'Authorization': 'Bearer '+token
+          // 'Content-Type': 'application/json'
+      }
+    })  
       .then((res) => {  
         if (!res.ok) throw new Error("Failed to load jobs");  
         return res.json();  

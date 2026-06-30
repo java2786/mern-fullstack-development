@@ -5,13 +5,13 @@ import App from './App.jsx'
 import Auth from './components/Auth'
 import { AuthUser } from './types'
 
-const onLoginSuccess= (token:string,user:AuthUser)=>{}
+// const onLoginSuccess= (token:string,user:AuthUser)=>{}
 
 const el = document.getElementById("root");
 if (!el) throw new Error("No element with id='root' found");
 createRoot(el).render(
   <StrictMode>
-    {/* <App /> */}
-    <Auth onLoginSuccess={onLoginSuccess}/>
+    <App />
+    {/* <Auth onLoginSuccess={onLoginSuccess}/> */}
   </StrictMode>,
 )
